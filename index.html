@@ -4,27 +4,46 @@
     <title>Hover css</title>
 </head>
 <style>
-    h1{
-        color:goldenrod;
-    }
-    .norm:hover{
-        color: crimson;
-        font-size: 60px;
-        background-color: aquamarine;
-    }
-    input:focus{
-        font-weight: 700;
+   h1::before{
+       content: " Hello ";
+       color:rgb(241, 48, 13);
+       font-size: 40px;
+       background-color: rgba(69, 141, 182, 0.692);
+   }
+   .norm::after{
+       content: " Bye ";
+       font-size: 40px;
+       background-color: cyan;
+   }
+    p::before{
+        content: "❤️";
+        color: red;
         font-size: 20px;
-        color: green;
-        font-family: cursive;
-    }
+    }    
+
 </style>
 <body>
     <h1>Pseudo Class</h1>
     <h1 class="norm">Normal Class</h1>
-    <h1>Vodro Class</h1>
+    <h1 class="norm">Vodro Class</h1>
     <input name="email" type="text">
     <br>
     <input name="password" type="text">
+    <br>
+    <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">w3</a>
+    <br>
+    <a href="https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/">visit pseudo</a>
+    <br>
+    <a href="www.hotmail.com">hotmail</a>
+
+        <p>Alia</p>
+        <p>Dalia</p>
+        <p>Malia</p>
+        <p>Salia</p>
+        <p>Jalia</p>
+        <p>Kalia</p>
+        <p>Falia</p>
+        <p>Nalia</p>
+   
 </body>
 </html>
